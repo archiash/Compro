@@ -1,19 +1,36 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: #333;
+  font-family: "Times New Roman", serif;
+  background-color: #f8f8f8;
+  color: #444;
 }
 
 header {
-  background-color: #eee;
+  background-color: #444;
+  color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px #ccc;
 }
 
 nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
 }
 
 nav li {
@@ -22,7 +39,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #444;
 }
 
 nav a:hover {
@@ -43,12 +60,34 @@ section {
 }
 
 footer {
-  background-color: #eee;
+  background-color: #444;
+  color: #f8f8f8;
+  padding: 20px;
   text-align: center;
+}
+
+.vintage {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #ccc;
   padding: 20px;
 }
 
-.fa-twitter, .fa-linkedin, .fa-github {
+.vintage h3 {
+  margin: 0;
   font-size: 1.5em;
-  margin-right: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #ccc;
+}
+
+.vintage p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-indent: 50px;
+}
+
+.vintage img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  box-shadow: 2px 2px 4px #ccc;
 }
