@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #eee;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #0070f3;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+section {
+  margin: 40px 0;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
